@@ -8,7 +8,6 @@
 
 ## Overview
 
-Professional portfolio website showcasing 12+ years of full-stack development, AI solutions architecture, and enterprise IT consulting expertise. This production-ready application demonstrates modern React development, advanced SEO implementation, and comprehensive professional branding.
 
 ### 🎯 Project Highlights
 
@@ -20,7 +19,7 @@ Professional portfolio website showcasing 12+ years of full-stack development, A
 
 This project demonstrates expertise in React + TypeScript development, advanced SEO techniques, professional UI/UX design, third-party API integration, and production deployment optimization.
 
-**🌐 Live Demo**: [https://lewis-portfolio.pages.dev](https://lewis-portfolio.pages.dev) | [https://sirlewis.pages.dev](https://sirlewis.pages.dev)
+**🌐 Live Demo**: [https://lewis-portfolio.pages.dev](https://limoduke-portfolio.pages.dev) | [https://sirlewis.pages.dev](https://limo.pages.dev)
 
 ### 💼 Key Technologies
 
@@ -187,10 +186,10 @@ This project is configured for Cloudflare Pages deployment with automatic builds
    - Go to [Cloudflare Dashboard](https://dash.cloudflare.com)
    - Navigate to "Workers & Pages"
    - Click "Create application" → "Pages" → "Connect to Git"
-   - Select `lewisgithinji/lewis-portfolio` repository
+   - Select `limo-portfolio` repository
 
 3. **Configure Build Settings**:
-   - **Project name**: `sirlewis` (or your preferred name)
+   - **Project name**: `limo` (or your preferred name)
    - **Production branch**: `main`
    - **Framework preset**: `None` or `Vite`
    - **Build command**: `npm run build`
@@ -206,7 +205,7 @@ Every push to the `main` branch will automatically trigger a new deployment on C
 
 - **`.node-version`**: Specifies Node.js 18
 - **`_headers`**: Security headers and caching rules
-- **`_redirects`**: URL redirects (e.g., `/resume` → `/Lewis_Githinji_Resume.html`)
+- **`_redirects`**: URL redirects (e.g., `/resume` → `/Limo_Resume.html`)
 - **`wrangler.toml`**: Cloudflare Workers configuration (optional)
 
 ## 🎨 Customization
@@ -232,11 +231,11 @@ The site uses emerald-to-cyan gradient accents. To customize:
 
 ### Replace Profile Photo
 
-Replace `public/wech.jpg` with your own professional photo (recommended: square, high-resolution, professional setting).
+Replace `public/limo.jpeg` with your own professional photo (recommended: square, high-resolution, professional setting).
 
 ### Update Resume
 
-Edit `public/Lewis_Githinji_Resume.html` with your professional details. The file is designed for printing to PDF.
+Edit `public/Limo_Resume.html` with your professional details. The file is designed for printing to PDF.
 
 ## 🔍 SEO Features
 
@@ -284,20 +283,13 @@ MIT License - feel free to use this template for your own portfolio!
 
 ### Development
 
-**Lewis Githinji** - Full-Stack Developer & AI Solutions Architect
+  - Full-Stack Developer & AI Solutions Architect
 
-- 🌐 [Portfolio](https://sirlewis.pages.dev)
-- 📧 [lewis@datacare.co.ke](mailto:lewis@datacare.co.ke)
-- 📱 [+254 784 155 752](tel:+254784155752)
-- 💬 [WhatsApp](https://wa.me/254784155752)
-- 💼 [LinkedIn](https://www.linkedin.com/in/waweru/)
-- 🐙 [GitHub](https://github.com/lewisgithinji)
-- 🏢 [Datacare Limited](https://datacare.co.ke)
-- 📅 [Schedule a Call](https://calendly.com/sir-lewis/30min)
+
 
 ### Professional Background
 
-- **Experience**: 12+ years in software development
+- **Experience**: 5+ years in software development
 - **Expertise**: Full-stack development, AI/ML solutions, enterprise IT consulting
 - **Industries**: Banking, Healthcare, Education, Government, Manufacturing, NGOs
 - **Certifications**: Microsoft Partner, AWS, Google Cloud, Cisco
@@ -305,4 +297,4 @@ MIT License - feel free to use this template for your own portfolio!
 
 ---
 
-**Built with ❤️ by Lewis Githinji**
+**Built with ❤️ by Limo Kiplagat Duke**
