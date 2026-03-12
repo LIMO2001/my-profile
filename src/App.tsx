@@ -44,11 +44,14 @@ const Navigation = () => {
     }`}>
       <div className="max-w-7xl mx-auto px-6 flex items-center justify-between">
         <a href="#" className="group flex items-center gap-3">
-          <img
-            src="public/limo.jpeg"
+            <img
+            src="/limo.jpeg"
             alt="Limo Kiplagat Duke"
             className="w-10 h-10 rounded-xl object-cover border-2 border-emerald-500/50 transition-transform group-hover:scale-110"
           />
+          <span className="font-semibold text-zinc-100 hidden sm:block">Lewis Githinji</span>
+        </a>
+
           <span className="font-semibold text-zinc-100 hidden sm:block">Limo Kiplagat Duke</span>
         </a>
 
