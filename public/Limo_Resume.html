@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Limo Kiplagat Duke -  Full-Stack Developer & AI Solutions Architect | Resume</title>
+  <meta name="description" content="Limo k Duke -5+ years experience building enterprise solutions. Available for remote work worldwide. $75-150/hr.">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: #1a1a1a;
+      background: #fff;
+      max-width: 850px;
+      margin: 0 auto;
+      padding: 40px;
+    }
+
+    @media print {
+      body {
+        padding: 20px;
+        font-size: 10.5pt;
+      }
+      .no-print { display: none; }
+      .page-break { page-break-before: always; }
+    }
+
+    /* Header */
+    .header {
+      text-align: center;
+      padding-bottom: 20px;
+      border-bottom: 2px solid #10b981;
+      margin-bottom: 20px;
+    }
+
+    .profile-photo {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #10b981;
+      margin-bottom: 12px;
+    }
+
+    .name {
+      font-size: 32px;
+      font-weight: 700;
+      color: #0f172a;
+      margin-bottom: 5px;
+    }
+
+    .title {
+      font-size: 18px;
+      color: #10b981;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    .tagline {
+      font-size: 14px;
+      color: #64748b;
+      margin-bottom: 12px;
+    }
+
+    .availability {
+      display: inline-block;
+      background: #ecfdf5;
+      color: #059669;
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 600;
+      margin-bottom: 12px;
+    }
+
+    .contact-info {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      font-size: 12px;
+      color: #475569;
+    }
+
+    .contact-info a {
+      color: #475569;
+      text-decoration: none;
+    }
+
+    .contact-info a:hover {
+      color: #10b981;
+    }
+
+    /* Sections */
+    .section {
+      margin-bottom: 20px;
+    }
+
+    .section-title {
+      font-size: 13px;
+      font-weight: 700;
+      color: #10b981;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid #e2e8f0;
+      margin-bottom: 12px;
+    }
+
+    /* Summary */
+    .summary {
+      color: #334155;
+      font-size: 13px;
+    }
+
+    .highlights {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 15px;
+      margin-top: 12px;
+      padding: 12px;
+      background: #f8fafc;
+      border-radius: 8px;
+    }
+
+    .highlight-item {
+      text-align: center;
+    }
+
+    .highlight-value {
+      font-size: 20px;
+      font-weight: 700;
+      color: #10b981;
+    }
+
+    .highlight-label {
+      font-size: 11px;
+      color: #64748b;
+    }
+
+    /* Experience */
+    .experience-item {
+      margin-bottom: 18px;
+    }
+
+    .experience-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 5px;
+    }
+
+    .company {
+      font-weight: 700;
+      color: #0f172a;
+      font-size: 14px;
+    }
+
+    .role {
+      color: #475569;
+      font-size: 13px;
+      font-style: italic;
+    }
+
+    .location {
+      color: #64748b;
+      font-size: 12px;
+    }
+
+    .date {
+      color: #64748b;
+      font-size: 12px;
+      white-space: nowrap;
+    }
+
+    .experience-desc {
+      color: #475569;
+      font-size: 12px;
+      margin-top: 6px;
+    }
+
+    .experience-desc ul {
+      margin-left: 18px;
+      margin-top: 4px;
+    }
+
+    .experience-desc li {
+      margin-bottom: 3px;
+    }
+
+    .metric {
+      color: #10b981;
+      font-weight: 600;
+    }
+
+    /* Skills */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+    }
+
+    .skill-category {
+      margin-bottom: 8px;
+    }
+
+    .skill-category-title {
+      font-weight: 600;
+      color: #0f172a;
+      font-size: 12px;
+      margin-bottom: 4px;
+    }
+
+    .skill-list {
+      color: #475569;
+      font-size: 11px;
+    }
+
+    /* Education & Certifications */
+    .edu-item {
+      margin-bottom: 10px;
+    }
+
+    .edu-title {
+      font-weight: 600;
+      color: #0f172a;
+      font-size: 13px;
+    }
+
+    .edu-school {
+      color: #475569;
+      font-size: 12px;
+    }
+
+    /* Projects */
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+    }
+
+    .project-item {
+      padding: 10px;
+      background: #f8fafc;
+      border-radius: 6px;
+      border-left: 3px solid #10b981;
+    }
+
+    .project-name {
+      font-weight: 600;
+      color: #0f172a;
+      font-size: 13px;
+      margin-bottom: 4px;
+    }
+
+    .project-desc {
+      color: #475569;
+      font-size: 11px;
+      margin-bottom: 4px;
+    }
+
+    .project-tech {
+      color: #10b981;
+      font-size: 10px;
+      font-weight: 500;
+    }
+
+    .project-link {
+      font-size: 10px;
+      color: #64748b;
+    }
+
+    .project-link a {
+      color: #10b981;
+      text-decoration: none;
+    }
+
+    /* Remote Work Section */
+    .remote-info {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+      padding: 12px;
+      background: #f0fdf4;
+      border-radius: 8px;
+      margin-top: 10px;
+    }
+
+    .remote-item {
+      text-align: center;
+    }
+
+    .remote-icon {
+      font-size: 18px;
+      margin-bottom: 4px;
+    }
+
+    .remote-label {
+      font-size: 11px;
+      color: #475569;
+      font-weight: 500;
+    }
+
+    .remote-value {
+      font-size: 10px;
+      color: #64748b;
+    }
+
+    /* Two column layout for bottom sections */
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    /* Print button */
+    .print-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #10b981;
+      color: white;
+      border: none;
+      padding: 12px 24px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: 600;
+      box-shadow: 0 4px 12px rgba(16, 185, 129, 0.3);
+    }
+
+    .print-btn:hover {
+      background: #059669;
+    }
+
+    /* Back to portfolio link */
+    .back-link {
+      position: fixed;
+      bottom: 20px;
+      left: 20px;
+      color: #64748b;
+      text-decoration: none;
+      font-size: 13px;
+    }
+
+    .back-link:hover {
+      color: #10b981;
+    }
+  </style>
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <img src="public/limo.jpeg" alt="Limo Kiplagat Duke" class="profile-photo">
+    <h1 class="name">Limo Kiplagat Duke</h1>
+    <p class="title"> Full-Stack Developer & AI Solutions Architect</p>
+    <p class="tagline">Building  Solutions for Global Clients | 3+ Years Experience</p>
+    <span class="availability">Available for Remote Projects Worldwide</span>
+    <div class="contact-info">
+      <a href="https://limo.pages.dev" target="_blank">limo.pages.dev</a>
+      <span>|</span>
+      <a href="mailto:dukelimo2001@gmail.com">dukelimo2001@gmail.com</a>
+      <span>|</span>
+      <a href="tel:+254799406453">+254 799406453</a>
+      <span>|</span>
+      <a href="https://www.linkedin.com/in/limo-duke-272b9b280" target="_blank">LinkedIn</a>
+      <span>|</span>
+      <a href="https://github.com/LIMO2001" target="_blank">GitHub</a>
+      <span>|</span>
+      <span>UTC+3 (Flexible hours)</span>
+    </div>
+  </header>
+
+  <!-- Summary with Key Metrics -->
+  <section class="section">
+    <h2 class="section-title">Professional Summary</h2>
+    <p class="summary">
+       software engineer and tech entrepreneur with <strong>3+ years</strong> of experience delivering production-ready
+      applications for enterprise clients. I specialize in full-stack
+      development, AI/ML integration, and cloud architecture. Proven track record of shipping high-quality code on time,
+      working asynchronously with distributed teams, and translating complex business requirements into scalable solutions.
+      Passionate about clean code, test-driven development, and building products that drive measurable business outcomes.
+    </p>
+    <div class="highlights">
+      <div class="highlight-item">
+        <div class="highlight-value">3+</div>
+        <div class="highlight-label">Years Experience</div>
+      </div>
+      <div class="highlight-item">
+        <div class="highlight-value">5+</div>
+        <div class="highlight-label">Organizations Served</div>
+      </div>
+      <div class="highlight-item">
+        <div class="highlight-value">5+</div>
+        <div class="highlight-label">Projects Delivered</div>
+      </div>
+      <div class="highlight-item">
+        <div class="highlight-value">$75-150</div>
+        <div class="highlight-label">Hourly Rate (USD)</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="section">
+    <h2 class="section-title">Professional Experience</h2>
+
+    <div class="experience-item">
+      <div class="experience-header">
+        <div>
+          <div class="company">DKL EMPIRE</div>
+          <div class="role">Founder & Lead Developer</div>
+          <div class="location">Nairobi, Kenya (Remote-first)</div>
+        </div>
+        <div class="date">2023 - Present</div>
+      </div>
+      <div class="experience-desc">
+        <ul>
+          <li>Founded and scaled an IT solutions company to <span class="metric">5+ enterprise clients</span> across Kenya, and East Africa</li>
+          <li>Achieved <span class="metric">Partner status</span>, delivering M365, Azure, and cloud productivity solutions</li>
+          <li>Led digital transformation projects resulting in <span class="metric">40% average efficiency improvement</span> for clients in Banking, Healthcare, and Government</li>
+          <li>Architected and deployed custom ERP systems processing <span class="metric">$2M+ in transactions annually</span></li>
+          <li>Built AI-powered automation solutions reducing manual processes by <span class="metric">60%</span> for enterprise clients</li>
+          <li>Managed remote teams across multiple time zones using Agile methodologies</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="experience-item">
+      <div class="experience-header">
+        <div>
+          <div class="company">Freelance & Contract Development</div>
+          <div class="role">Senior Full-Stack Developer & AI Engineer</div>
+          <div class="location">Remote (Global Clients)</div>
+        </div>
+        <div class="date">2023 - Present</div>
+      </div>
+      <div class="experience-desc">
+        <ul>
+          <li>Delivered <span class="metric">5+ full-stack applications</span> for startups and enterprises using React, Node.js, and TypeScript</li>
+          <li>Built AI agents and automation pipelines using LangChain, OpenAI API, and custom ML models</li>
+          <li>Developed fintech platforms handling <span class="metric">10,000+ monthly transactions</span> with 99.9% uptime</li>
+          <li>Created responsive web applications with <span class="metric">Lighthouse scores 90+</span> for performance and accessibility</li>
+          <li>Maintained <span class="metric">100% on-time delivery rate</span> across all contracted projects</li>
+          <li>Collaborated asynchronously With teams via Slack, GitHub, Linear, and Notion</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technical Skills -->
+  <section class="section">
+    <h2 class="section-title">Technical Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-category">
+        <div class="skill-category-title">Frontend Development</div>
+        <div class="skill-list">React, Next.js, TypeScript, Vue.js, Tailwind CSS, HTML5/CSS3, Responsive Design</div>
+      </div>
+      <div class="skill-category">
+        <div class="skill-category-title">Backend Development</div>
+        <div class="skill-list">Node.js, Python, FastAPI, Express.js, .NET Core, REST APIs, GraphQL</div>
+      </div>
+      <div class="skill-category">
+        <div class="skill-category-title">AI & Automation</div>
+        <div class="skill-list">LangChain, OpenAI API, Claude API, AI Agents, n8n, Zapier, Data Pipelines</div>
+      </div>
+      <div class="skill-category">
+        <div class="skill-category-title">Cloud & DevOps</div>
+        <div class="skill-list">AWS, Azure, GCP, Docker, CI/CD, GitHub Actions, Linux, Nginx, Vercel</div>
+      </div>
+      <div class="skill-category">
+        <div class="skill-category-title">Databases</div>
+        <div class="skill-list">PostgreSQL, MySQL, MongoDB, Redis, Supabase, Firebase, Prisma ORM</div>
+      </div>
+      <div class="skill-category">
+        <div class="skill-category-title">Tools & Collaboration</div>
+        <div class="skill-list">Git, GitHub, Jira, Linear, Notion, Figma, Slack, VS Code, Agile/Scrum</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Key Projects -->
+  <section class="section">
+    <h2 class="section-title">Key Projects</h2>
+    <div class="projects-grid">
+      <div class="project-item">
+        <div class="project-name">DIACARE</div>
+        <div class="project-desc"> AI Model for Predicting Diabetes and Reccomend exercise and food.</div>
+        <div class="project-tech">TypeScript, React,</div>
+        <div class="project-link"><a href="" target="_blank">tntscco.co.ke</a></div>
+      </div>
+      <div class="project-item">
+        <div class="project-name"> Platform</div>
+        <div class="project-desc">Academic journals platform with conference management, calendar views, and advanced search for researchers.</div>
+        <div class="project-tech">TypeScript, Next.js, PostgreSQL</div>
+      </div>
+      <div class="project-item">
+        <div class="project-name">Law firm Advocates</div>
+        <div class="project-desc">Modern legal firm website with practice showcases, attorney profiles, and client portal integration.</div>
+        <div class="project-tech">TypeScript, React, Tailwind CSS</div>
+        <div class="project-link"><a href="" target="_blank">law firm</a></div>
+      </div>
+      <div class="project-item">
+        <div class="project-name">Crop Yield Prediction</div>
+        <div class="project-desc">AI Predicted system to predict yield based on conditions ,eg weather ,soil ph .</div>
+        <div class="project-tech">TypeScript, React, Analytics, IoT</div>
+        <div class="project-link"><a href="https://github.com/LIMO2001/cropyield-prediction" target="_blank">Yield Prediction web</a></div>
+      </div>
+      <div class="project-item">
+        <div class="project-name">E-Commerce Web</div>
+        <div class="project-desc">For Selling computers Online availability management, and payment integration.</div>
+        <div class="project-tech">TypeScript, React, E-CommerceSystem</div>
+        <div class="project-link"><a href="https://github.com/LIMO2001/SHOP" target="_blank">tuskerexpeditions.netlify.app</a></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Remote Work & Collaboration -->
+  <section class="section">
+    <h2 class="section-title">Remote Work & Collaboration</h2>
+    <div class="remote-info">
+      <div class="remote-item">
+        <div class="remote-icon">🌍</div>
+        <div class="remote-label">Timezone Flexibility</div>
+        <div class="remote-value">UTC-8 to UTC+12 overlap available</div>
+      </div>
+      <div class="remote-item">
+        <div class="remote-icon">⚡</div>
+        <div class="remote-label">Response Time</div>
+        <div class="remote-value">Within 24 hours, often same-day</div>
+      </div>
+      <div class="remote-item">
+        <div class="remote-icon">📊</div>
+        <div class="remote-label">Communication</div>
+        <div class="remote-value">Async-first, weekly syncs</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Two Column: Education & Certifications -->
+  <div class="two-col">
+    <section class="section">
+      <h2 class="section-title">Education</h2>
+      <div class="edu-item">
+        <div class="edu-title">B.Sc. Information Technology</div>
+        <div class="edu-school">Kabarak University</div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">Certifications</h2>
+      <div class="edu-item">
+        <div class="edu-title"></div>
+        <div class="edu-school">Cloud Solutions</div>
+      </div>
+      <div class="edu-item">
+        <div class="edu-title"></div>
+        <div class="edu-school">Cloud Architecture</div>
+      </div>
+      <div class="edu-item">
+        <div class="edu-title">Google </div>
+        <div class="edu-school">Workspace & Cloud Services</div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Languages -->
+  <section class="section">
+    <h2 class="section-title">Languages</h2>
+    <p class="summary"><strong>English</strong> (Fluent - Professional working proficiency) | <strong>Swahili</strong> (Native)</p>
+  </section>
+
+  <!-- Back to Portfolio -->
+  <a href="https" class="back-link no-print">&larr; Back to Portfolio</a>
+
+  <!-- Print Button -->
+  <button class="print-btn no-print" onclick="window.print()">
+    Download PDF
+  </button>
+</body>
+</html>

@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install)",
+      "Bash(npm run dev:*)",
+      "Bash(tree:*)",
+      "Bash(git init:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nInitial commit: Lewis Githinji Portfolio\n\nProfessional portfolio website with the following features:\n- Modern dark theme with emerald/cyan gradient accents\n- Responsive design (mobile, tablet, desktop)\n- Navigation with photo logo and resume download\n- Hero section with Calendly integration\n- About section with international work info\n- Skills showcase with 6 categories\n- Projects section with GitHub repos and live links\n- How I Work process (4 steps)\n- Client testimonials\n- 6 service offerings (Web, AI, M365, Security, Email, Digital Transformation)\n- Contact section with WhatsApp, email, and social links\n- Professional HTML resume (print to PDF)\n\nTech Stack:\n- React 18 + TypeScript + Vite 5\n- Tailwind CSS for styling\n- Custom scroll animations with Intersection Observer\n- Plus Jakarta Sans font\n\n🤖 Generated with Claude Code\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(gh repo create:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

@@ -1,0 +1,37 @@
+# robots.txt for Lewis Githinji Portfolio
+# https://sirlewis.pages.dev
+
+User-agent: *
+Allow: /
+
+# Disallow admin/config files if any
+Disallow: /admin/
+Disallow: /.git/
+
+# Allow all resources for better indexing
+Allow: /wech.jpg
+Allow: /favicon.svg
+Allow: /og-image.png
+Allow: /Lewis_Githinji_Resume.html
+
+# Sitemap location
+Sitemap: https://sirlewis.pages.dev/sitemap.xml
+
+# Crawl-delay (optional, be nice to servers)
+Crawl-delay: 0
+
+# Specific bot rules
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: TwitterBot
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
