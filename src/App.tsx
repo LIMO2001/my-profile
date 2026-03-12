@@ -462,7 +462,7 @@ const Projects = () => {
       live: 'https:///',
     },
     {
-      title: 'L',
+      title: 'SHOP',
       description: 'E-Commerce WEB',
       tags: ['C#', 'React', 'Analytics'],
       category: 'CleanTech',
