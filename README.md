@@ -1,4 +1,4 @@
-# Lewis Githinji - Portfolio Website
+# Limo kiplagat Duke - Portfolio Website
 
 ![React](https://img.shields.io/badge/React-18-61DAFB?style=flat-square&logo=react)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=flat-square&logo=typescript)
@@ -7,6 +7,7 @@
 ![License](https://img.shields.io/badge/License-MIT-green?style=flat-square)
 
 ## Overview
+<img width="935" height="496" alt="image" src="https://github.com/user-attachments/assets/82c635da-fc87-48ad-bd6d-c6a12047ba36" />
 
 
 ### 🎯 Project Highlights
@@ -134,13 +135,7 @@ lewis-portfolio/
 - 6 real projects from GitHub
 - Live demo links and GitHub repo links
 - Category tags and descriptions
-- Projects included:
-  - Datacare Platform
-  - IJSSE Academic Journals
-  - TNT Sacco
-  - FNM Law Advocates
-  - Loop Energy
-  - Tusker Expeditions
+
 
 ### 6. How I Work Section
 - 4-step process documentation
