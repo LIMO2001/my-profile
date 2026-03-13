@@ -223,8 +223,8 @@ const Hero = () => {
             mounted ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4'
           }`}>
             {[
-              { value: '12+', label: 'Years Experience' },
-              { value: '500+', label: 'Organizations Served' },
+              { value: '3+', label: 'Years Experience' },
+              { value: '3+', label: 'Organizations Served' },
               { value: '50+', label: 'Projects Delivered' },
             ].map((stat) => (
               <div key={stat.label}>
@@ -268,7 +268,7 @@ const About = () => (
             </div>
             {/* Floating badge */}
             <div className="absolute -bottom-6 -right-6 px-6 py-4 bg-zinc-900 border border-zinc-700 rounded-2xl shadow-2xl">
-              <div className="text-emerald-400 font-bold text-lg">Since 2022</div>
+              <div className="text-emerald-400 font-bold text-lg">Since 2023</div>
               <div className="text-zinc-500 text-sm">Building Digital Solutions</div>
             </div>
           </div>
@@ -382,7 +382,7 @@ const Skills = () => {
             Skills & Technologies
           </h2>
           <p className="text-zinc-400 max-w-2xl mx-auto">
-            A comprehensive toolkit built over 12+ years of solving complex technical challenges
+            A comprehensive toolkit built over 3+ years of solving complex technical challenges
           </p>
         </div>
 
